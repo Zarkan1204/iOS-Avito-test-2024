@@ -19,11 +19,8 @@
 		FA179C3B2BC85C9900DEF84C /* CollectionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C3A2BC85C9900DEF84C /* CollectionItem.swift */; };
 		FA179C3D2BC85CAE00DEF84C /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C3C2BC85CAE00DEF84C /* State.swift */; };
 		FA179C412BC85D1F00DEF84C /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C402BC85D1F00DEF84C /* SelectButton.swift */; };
-		FA179C432BC85D3E00DEF84C /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C422BC85D3E00DEF84C /* SearchTextField.swift */; };
+		FA179C432BC85D3E00DEF84C /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C422BC85D3E00DEF84C /* SearchView.swift */; };
 		FA179C452BC85D5800DEF84C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C442BC85D5800DEF84C /* SearchViewController.swift */; };
-		FA179C472BC85D9F00DEF84C /* PromptStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C462BC85D9F00DEF84C /* PromptStackView.swift */; };
-		FA179C492BC85DC300DEF84C /* CategoriesStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C482BC85DC300DEF84C /* CategoriesStackView.swift */; };
-		FA179C4B2BC85DE200DEF84C /* LimitStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C4A2BC85DE200DEF84C /* LimitStackView.swift */; };
 		FA179C4E2BC85E1A00DEF84C /* ResultCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C4D2BC85E1A00DEF84C /* ResultCollectionView.swift */; };
 		FA179C502BC85E4200DEF84C /* ResultCollectionView + DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C4F2BC85E4200DEF84C /* ResultCollectionView + DataSource.swift */; };
 		FA179C522BC85E6D00DEF84C /* ResultCollectionView + DelegateFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C512BC85E6D00DEF84C /* ResultCollectionView + DelegateFlowLayout.swift */; };
@@ -41,6 +38,32 @@
 		FA179C6F2BC861D300DEF84C /* UIViewController + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C6E2BC861D300DEF84C /* UIViewController + Extensions.swift */; };
 		FA179C712BC861F700DEF84C /* URLSession + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C702BC861F700DEF84C /* URLSession + Extensions.swift */; };
 		FA179C732BC8622300DEF84C /* String + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA179C722BC8622300DEF84C /* String + Extensions.swift */; };
+		FACDF6FF2BCAF81700FC9509 /* Urbanist-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FACDF6FC2BCAF81700FC9509 /* Urbanist-Light.ttf */; };
+		FACDF7002BCAF81700FC9509 /* Urbanist-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FACDF6FD2BCAF81700FC9509 /* Urbanist-Regular.ttf */; };
+		FACDF7012BCAF81700FC9509 /* Urbanist-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FACDF6FE2BCAF81700FC9509 /* Urbanist-Bold.ttf */; };
+		FACDF7032BCAF98900FC9509 /* DetailFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7022BCAF98900FC9509 /* DetailFactory.swift */; };
+		FACDF7052BCAF9F300FC9509 /* ParentCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7042BCAF9F300FC9509 /* ParentCoordinator.swift */; };
+		FACDF7072BCAFA2000FC9509 /* DetailCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7062BCAFA2000FC9509 /* DetailCoordinator.swift */; };
+		FACDF70B2BCAFBF600FC9509 /* PromptStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF70A2BCAFBF600FC9509 /* PromptStackView.swift */; };
+		FACDF70D2BCAFC1D00FC9509 /* EntityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF70C2BCAFC1D00FC9509 /* EntityView.swift */; };
+		FACDF70F2BCAFC3700FC9509 /* LimitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF70E2BCAFC3700FC9509 /* LimitView.swift */; };
+		FACDF7152BCAFD0A00FC9509 /* LookUpItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7142BCAFD0A00FC9509 /* LookUpItemModel.swift */; };
+		FACDF7172BCAFD2A00FC9509 /* DetailsState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7162BCAFD2A00FC9509 /* DetailsState.swift */; };
+		FACDF71C2BCAFD8000FC9509 /* MainInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF71B2BCAFD8000FC9509 /* MainInfoView.swift */; };
+		FACDF71E2BCAFD9D00FC9509 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF71D2BCAFD9D00FC9509 /* DescriptionView.swift */; };
+		FACDF7202BCAFDBD00FC9509 /* LookUpCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF71F2BCAFDBD00FC9509 /* LookUpCollectionView.swift */; };
+		FACDF7222BCAFDD700FC9509 /* LookUpCollectionView + DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7212BCAFDD700FC9509 /* LookUpCollectionView + DataSource.swift */; };
+		FACDF7242BCAFDF800FC9509 /* LookUpCollectionView + FlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7232BCAFDF800FC9509 /* LookUpCollectionView + FlowLayout.swift */; };
+		FACDF7262BCAFE1000FC9509 /* LookUpCollectionView + Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7252BCAFE1000FC9509 /* LookUpCollectionView + Delegate.swift */; };
+		FACDF7282BCAFE2B00FC9509 /* LookUpCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7272BCAFE2B00FC9509 /* LookUpCollectionViewCell.swift */; };
+		FACDF72A2BCAFE9400FC9509 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7292BCAFE9400FC9509 /* DetailViewController.swift */; };
+		FACDF72C2BCAFED100FC9509 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF72B2BCAFED100FC9509 /* DetailViewModel.swift */; };
+		FACDF72E2BCAFF1E00FC9509 /* LookUpEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF72D2BCAFF1E00FC9509 /* LookUpEndPoint.swift */; };
+		FACDF7302BCAFF5800FC9509 /* NetworkFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF72F2BCAFF5800FC9509 /* NetworkFetch.swift */; };
+		FACDF7322BCAFF7100FC9509 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7312BCAFF7100FC9509 /* NetworkRequest.swift */; };
+		FACDF7342BCAFF8700FC9509 /* NetworkRequestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7332BCAFF8700FC9509 /* NetworkRequestImage.swift */; };
+		FACDF7362BCB000100FC9509 /* EndPointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7352BCB000100FC9509 /* EndPointProtocol.swift */; };
+		FACDF7382BCB002E00FC9509 /* UIFont + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACDF7372BCB002E00FC9509 /* UIFont + Extensions.swift */; };
 		FAD66E582BC6D8DB00D675DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD66E572BC6D8DB00D675DD /* AppDelegate.swift */; };
 		FAD66E5A2BC6D8DB00D675DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD66E592BC6D8DB00D675DD /* SceneDelegate.swift */; };
 		FAD66E612BC6D8DC00D675DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAD66E602BC6D8DC00D675DD /* Assets.xcassets */; };
@@ -60,11 +83,8 @@
 		FA179C3A2BC85C9900DEF84C /* CollectionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionItem.swift; sourceTree = "<group>"; };
 		FA179C3C2BC85CAE00DEF84C /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		FA179C402BC85D1F00DEF84C /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
-		FA179C422BC85D3E00DEF84C /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		FA179C422BC85D3E00DEF84C /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		FA179C442BC85D5800DEF84C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
-		FA179C462BC85D9F00DEF84C /* PromptStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptStackView.swift; sourceTree = "<group>"; };
-		FA179C482BC85DC300DEF84C /* CategoriesStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesStackView.swift; sourceTree = "<group>"; };
-		FA179C4A2BC85DE200DEF84C /* LimitStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitStackView.swift; sourceTree = "<group>"; };
 		FA179C4D2BC85E1A00DEF84C /* ResultCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCollectionView.swift; sourceTree = "<group>"; };
 		FA179C4F2BC85E4200DEF84C /* ResultCollectionView + DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultCollectionView + DataSource.swift"; sourceTree = "<group>"; };
 		FA179C512BC85E6D00DEF84C /* ResultCollectionView + DelegateFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ResultCollectionView + DelegateFlowLayout.swift"; sourceTree = "<group>"; };
@@ -82,6 +102,32 @@
 		FA179C6E2BC861D300DEF84C /* UIViewController + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extensions.swift"; sourceTree = "<group>"; };
 		FA179C702BC861F700DEF84C /* URLSession + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLSession + Extensions.swift"; sourceTree = "<group>"; };
 		FA179C722BC8622300DEF84C /* String + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extensions.swift"; sourceTree = "<group>"; };
+		FACDF6FC2BCAF81700FC9509 /* Urbanist-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Light.ttf"; sourceTree = "<group>"; };
+		FACDF6FD2BCAF81700FC9509 /* Urbanist-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Regular.ttf"; sourceTree = "<group>"; };
+		FACDF6FE2BCAF81700FC9509 /* Urbanist-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Urbanist-Bold.ttf"; sourceTree = "<group>"; };
+		FACDF7022BCAF98900FC9509 /* DetailFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailFactory.swift; sourceTree = "<group>"; };
+		FACDF7042BCAF9F300FC9509 /* ParentCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentCoordinator.swift; sourceTree = "<group>"; };
+		FACDF7062BCAFA2000FC9509 /* DetailCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailCoordinator.swift; sourceTree = "<group>"; };
+		FACDF70A2BCAFBF600FC9509 /* PromptStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptStackView.swift; sourceTree = "<group>"; };
+		FACDF70C2BCAFC1D00FC9509 /* EntityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityView.swift; sourceTree = "<group>"; };
+		FACDF70E2BCAFC3700FC9509 /* LimitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitView.swift; sourceTree = "<group>"; };
+		FACDF7142BCAFD0A00FC9509 /* LookUpItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookUpItemModel.swift; sourceTree = "<group>"; };
+		FACDF7162BCAFD2A00FC9509 /* DetailsState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsState.swift; sourceTree = "<group>"; };
+		FACDF71B2BCAFD8000FC9509 /* MainInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInfoView.swift; sourceTree = "<group>"; };
+		FACDF71D2BCAFD9D00FC9509 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
+		FACDF71F2BCAFDBD00FC9509 /* LookUpCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookUpCollectionView.swift; sourceTree = "<group>"; };
+		FACDF7212BCAFDD700FC9509 /* LookUpCollectionView + DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LookUpCollectionView + DataSource.swift"; sourceTree = "<group>"; };
+		FACDF7232BCAFDF800FC9509 /* LookUpCollectionView + FlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LookUpCollectionView + FlowLayout.swift"; sourceTree = "<group>"; };
+		FACDF7252BCAFE1000FC9509 /* LookUpCollectionView + Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LookUpCollectionView + Delegate.swift"; sourceTree = "<group>"; };
+		FACDF7272BCAFE2B00FC9509 /* LookUpCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookUpCollectionViewCell.swift; sourceTree = "<group>"; };
+		FACDF7292BCAFE9400FC9509 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FACDF72B2BCAFED100FC9509 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
+		FACDF72D2BCAFF1E00FC9509 /* LookUpEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookUpEndPoint.swift; sourceTree = "<group>"; };
+		FACDF72F2BCAFF5800FC9509 /* NetworkFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetch.swift; sourceTree = "<group>"; };
+		FACDF7312BCAFF7100FC9509 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		FACDF7332BCAFF8700FC9509 /* NetworkRequestImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestImage.swift; sourceTree = "<group>"; };
+		FACDF7352BCB000100FC9509 /* EndPointProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPointProtocol.swift; sourceTree = "<group>"; };
+		FACDF7372BCB002E00FC9509 /* UIFont + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extensions.swift"; sourceTree = "<group>"; };
 		FAD66E542BC6D8DB00D675DD /* iOS-Avito-test-2024.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Avito-test-2024.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAD66E572BC6D8DB00D675DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAD66E592BC6D8DB00D675DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +150,7 @@
 		FA179C192BC8583700DEF84C /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				FACDF6FB2BCAF7DC00FC9509 /* Fonts */,
 				FAD66E602BC6D8DC00D675DD /* Assets.xcassets */,
 				FAD66E622BC6D8DC00D675DD /* LaunchScreen.storyboard */,
 				FAD66E652BC6D8DC00D675DD /* Info.plist */,
@@ -169,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				FA179C252BC85AA400DEF84C /* SearchFactory.swift */,
+				FACDF7022BCAF98900FC9509 /* DetailFactory.swift */,
 			);
 			path = FactoriesScreens;
 			sourceTree = "<group>";
@@ -177,6 +225,7 @@
 			isa = PBXGroup;
 			children = (
 				FA179C2D2BC85B3800DEF84C /* SearchCoordinator.swift */,
+				FACDF7062BCAFA2000FC9509 /* DetailCoordinator.swift */,
 			);
 			path = CoordinatorScreens;
 			sourceTree = "<group>";
@@ -186,6 +235,7 @@
 			children = (
 				FA179C2B2BC85B2200DEF84C /* Coordinator.swift */,
 				FA179C292BC85B1200DEF84C /* AppCoordinator.swift */,
+				FACDF7042BCAF9F300FC9509 /* ParentCoordinator.swift */,
 			);
 			path = AppCoordinator;
 			sourceTree = "<group>";
@@ -193,19 +243,11 @@
 		FA179C2F2BC85BA400DEF84C /* ScreenModules */ = {
 			isa = PBXGroup;
 			children = (
-				FA179C302BC85BB900DEF84C /* Search */,
-			);
-			path = ScreenModules;
-			sourceTree = "<group>";
-		};
-		FA179C302BC85BB900DEF84C /* Search */ = {
-			isa = PBXGroup;
-			children = (
 				FA179C332BC85BE600DEF84C /* Models */,
 				FA179C322BC85BDC00DEF84C /* Views */,
 				FA179C312BC85BCB00DEF84C /* ViewModels */,
 			);
-			path = Search;
+			path = ScreenModules;
 			sourceTree = "<group>";
 		};
 		FA179C312BC85BCB00DEF84C /* ViewModels */ = {
@@ -220,9 +262,12 @@
 			isa = PBXGroup;
 			children = (
 				FA179C3E2BC85CED00DEF84C /* Controllers */,
-				FA179C3F2BC85CF600DEF84C /* StackViews */,
+				FA179C4C2BC85E0300DEF84C /* ResultsCollectionView */,
+				FACDF70A2BCAFBF600FC9509 /* PromptStackView.swift */,
+				FACDF70C2BCAFC1D00FC9509 /* EntityView.swift */,
+				FACDF70E2BCAFC3700FC9509 /* LimitView.swift */,
 				FA179C402BC85D1F00DEF84C /* SelectButton.swift */,
-				FA179C422BC85D3E00DEF84C /* SearchTextField.swift */,
+				FA179C422BC85D3E00DEF84C /* SearchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,17 +292,6 @@
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		FA179C3F2BC85CF600DEF84C /* StackViews */ = {
-			isa = PBXGroup;
-			children = (
-				FA179C4C2BC85E0300DEF84C /* ResultsCollectionView */,
-				FA179C462BC85D9F00DEF84C /* PromptStackView.swift */,
-				FA179C482BC85DC300DEF84C /* CategoriesStackView.swift */,
-				FA179C4A2BC85DE200DEF84C /* LimitStackView.swift */,
-			);
-			path = StackViews;
-			sourceTree = "<group>";
-		};
 		FA179C4C2BC85E0300DEF84C /* ResultsCollectionView */ = {
 			isa = PBXGroup;
 			children = (
@@ -274,8 +308,12 @@
 			isa = PBXGroup;
 			children = (
 				FA179C5A2BC85F6B00DEF84C /* EndPoint.swift */,
+				FACDF72D2BCAFF1E00FC9509 /* LookUpEndPoint.swift */,
 				FA179C5C2BC85F7C00DEF84C /* NetworkError.swift */,
 				FA179C5E2BC85F8B00DEF84C /* APIService.swift */,
+				FACDF72F2BCAFF5800FC9509 /* NetworkFetch.swift */,
+				FACDF7312BCAFF7100FC9509 /* NetworkRequest.swift */,
+				FACDF7332BCAFF8700FC9509 /* NetworkRequestImage.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -293,6 +331,7 @@
 			children = (
 				FA179C642BC8603500DEF84C /* Reusable.swift */,
 				FA179C662BC8607200DEF84C /* Observable.swift */,
+				FACDF7352BCB000100FC9509 /* EndPointProtocol.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -313,8 +352,94 @@
 				FA179C6A2BC860D200DEF84C /* UIView + Extensions.swift */,
 				FA179C6C2BC860E900DEF84C /* UILabel + Extensions.swift */,
 				FA179C6E2BC861D300DEF84C /* UIViewController + Extensions.swift */,
+				FACDF7372BCB002E00FC9509 /* UIFont + Extensions.swift */,
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FACDF6FB2BCAF7DC00FC9509 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FACDF6FE2BCAF81700FC9509 /* Urbanist-Bold.ttf */,
+				FACDF6FC2BCAF81700FC9509 /* Urbanist-Light.ttf */,
+				FACDF6FD2BCAF81700FC9509 /* Urbanist-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FACDF7082BCAFA5A00FC9509 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FA179C2F2BC85BA400DEF84C /* ScreenModules */,
+				FACDF7092BCAFA7D00FC9509 /* DetailsModule */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FACDF7092BCAFA7D00FC9509 /* DetailsModule */ = {
+			isa = PBXGroup;
+			children = (
+				FACDF7102BCAFCC300FC9509 /* Models */,
+				FACDF7122BCAFCD700FC9509 /* Views */,
+				FACDF7132BCAFCE200FC9509 /* ViewModels */,
+			);
+			path = DetailsModule;
+			sourceTree = "<group>";
+		};
+		FACDF7102BCAFCC300FC9509 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FACDF7142BCAFD0A00FC9509 /* LookUpItemModel.swift */,
+				FACDF7162BCAFD2A00FC9509 /* DetailsState.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FACDF7122BCAFCD700FC9509 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FACDF7182BCAFD4F00FC9509 /* Views */,
+				FACDF7192BCAFD5700FC9509 /* Controllers */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FACDF7132BCAFCE200FC9509 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FACDF72B2BCAFED100FC9509 /* DetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FACDF7182BCAFD4F00FC9509 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FACDF71A2BCAFD6E00FC9509 /* LookUpCollectionView */,
+				FACDF71B2BCAFD8000FC9509 /* MainInfoView.swift */,
+				FACDF71D2BCAFD9D00FC9509 /* DescriptionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FACDF7192BCAFD5700FC9509 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FACDF7292BCAFE9400FC9509 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FACDF71A2BCAFD6E00FC9509 /* LookUpCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				FACDF71F2BCAFDBD00FC9509 /* LookUpCollectionView.swift */,
+				FACDF7212BCAFDD700FC9509 /* LookUpCollectionView + DataSource.swift */,
+				FACDF7232BCAFDF800FC9509 /* LookUpCollectionView + FlowLayout.swift */,
+				FACDF7252BCAFE1000FC9509 /* LookUpCollectionView + Delegate.swift */,
+				FACDF7272BCAFE2B00FC9509 /* LookUpCollectionViewCell.swift */,
+			);
+			path = LookUpCollectionView;
 			sourceTree = "<group>";
 		};
 		FAD66E4B2BC6D8DB00D675DD = {
@@ -337,7 +462,7 @@
 			isa = PBXGroup;
 			children = (
 				FA179C1A2BC8591C00DEF84C /* CompositionRoot */,
-				FA179C2F2BC85BA400DEF84C /* ScreenModules */,
+				FACDF7082BCAFA5A00FC9509 /* Presentation */,
 				FA179C592BC85F5300DEF84C /* Network */,
 				FA179C602BC85FD300DEF84C /* Storage */,
 				FA179C632BC8601600DEF84C /* Utility */,
@@ -406,7 +531,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAD66E612BC6D8DC00D675DD /* Assets.xcassets in Resources */,
+				FACDF7012BCAF81700FC9509 /* Urbanist-Bold.ttf in Resources */,
+				FACDF6FF2BCAF81700FC9509 /* Urbanist-Light.ttf in Resources */,
 				FAD66E642BC6D8DC00D675DD /* Base in Resources */,
+				FACDF7002BCAF81700FC9509 /* Urbanist-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,39 +547,59 @@
 			files = (
 				FA179C5B2BC85F6B00DEF84C /* EndPoint.swift in Sources */,
 				FA179C712BC861F700DEF84C /* URLSession + Extensions.swift in Sources */,
+				FACDF7152BCAFD0A00FC9509 /* LookUpItemModel.swift in Sources */,
 				FA179C2A2BC85B1200DEF84C /* AppCoordinator.swift in Sources */,
+				FACDF70F2BCAFC3700FC9509 /* LimitView.swift in Sources */,
+				FACDF70B2BCAFBF600FC9509 /* PromptStackView.swift in Sources */,
+				FACDF7072BCAFA2000FC9509 /* DetailCoordinator.swift in Sources */,
+				FACDF7032BCAF98900FC9509 /* DetailFactory.swift in Sources */,
 				FA179C392BC85C7000DEF84C /* EntityType.swift in Sources */,
 				FA179C3B2BC85C9900DEF84C /* CollectionItem.swift in Sources */,
+				FACDF7282BCAFE2B00FC9509 /* LookUpCollectionViewCell.swift in Sources */,
 				FA179C202BC85A0700DEF84C /* AppDIContainer.swift in Sources */,
+				FACDF7362BCB000100FC9509 /* EndPointProtocol.swift in Sources */,
 				FA179C352BC85C1B00DEF84C /* SearchItems.swift in Sources */,
+				FACDF72C2BCAFED100FC9509 /* DetailViewModel.swift in Sources */,
 				FA179C5D2BC85F7C00DEF84C /* NetworkError.swift in Sources */,
-				FA179C432BC85D3E00DEF84C /* SearchTextField.swift in Sources */,
+				FA179C432BC85D3E00DEF84C /* SearchView.swift in Sources */,
+				FACDF7342BCAFF8700FC9509 /* NetworkRequestImage.swift in Sources */,
 				FA179C6B2BC860D200DEF84C /* UIView + Extensions.swift in Sources */,
+				FACDF7172BCAFD2A00FC9509 /* DetailsState.swift in Sources */,
 				FA179C732BC8622300DEF84C /* String + Extensions.swift in Sources */,
 				FA179C412BC85D1F00DEF84C /* SelectButton.swift in Sources */,
 				FA179C542BC85E8E00DEF84C /* ResultCollectionView + Delegate.swift in Sources */,
+				FACDF72A2BCAFE9400FC9509 /* DetailViewController.swift in Sources */,
 				FA179C4E2BC85E1A00DEF84C /* ResultCollectionView.swift in Sources */,
+				FACDF70D2BCAFC1D00FC9509 /* EntityView.swift in Sources */,
 				FA179C372BC85C4900DEF84C /* SearchParameters.swift in Sources */,
 				FAD66E582BC6D8DB00D675DD /* AppDelegate.swift in Sources */,
+				FACDF7262BCAFE1000FC9509 /* LookUpCollectionView + Delegate.swift in Sources */,
 				FA179C522BC85E6D00DEF84C /* ResultCollectionView + DelegateFlowLayout.swift in Sources */,
 				FAD66E5A2BC6D8DB00D675DD /* SceneDelegate.swift in Sources */,
+				FACDF71E2BCAFD9D00FC9509 /* DescriptionView.swift in Sources */,
+				FACDF7242BCAFDF800FC9509 /* LookUpCollectionView + FlowLayout.swift in Sources */,
 				FA179C452BC85D5800DEF84C /* SearchViewController.swift in Sources */,
+				FACDF7052BCAF9F300FC9509 /* ParentCoordinator.swift in Sources */,
 				FA179C502BC85E4200DEF84C /* ResultCollectionView + DataSource.swift in Sources */,
-				FA179C472BC85D9F00DEF84C /* PromptStackView.swift in Sources */,
+				FACDF7382BCB002E00FC9509 /* UIFont + Extensions.swift in Sources */,
 				FA179C2E2BC85B3800DEF84C /* SearchCoordinator.swift in Sources */,
 				FA179C3D2BC85CAE00DEF84C /* State.swift in Sources */,
 				FA179C262BC85AA400DEF84C /* SearchFactory.swift in Sources */,
+				FACDF7322BCAFF7100FC9509 /* NetworkRequest.swift in Sources */,
 				FA179C562BC85EB100DEF84C /* ResultsCollectionViewCell.swift in Sources */,
+				FACDF7222BCAFDD700FC9509 /* LookUpCollectionView + DataSource.swift in Sources */,
 				FA179C6D2BC860E900DEF84C /* UILabel + Extensions.swift in Sources */,
+				FACDF71C2BCAFD8000FC9509 /* MainInfoView.swift in Sources */,
 				FA179C6F2BC861D300DEF84C /* UIViewController + Extensions.swift in Sources */,
 				FA179C5F2BC85F8B00DEF84C /* APIService.swift in Sources */,
 				FA179C622BC85FF500DEF84C /* UserDefaultsManager.swift in Sources */,
 				FA179C652BC8603500DEF84C /* Reusable.swift in Sources */,
-				FA179C492BC85DC300DEF84C /* CategoriesStackView.swift in Sources */,
 				FA179C582BC85F1000DEF84C /* SearchViewModel.swift in Sources */,
 				FA179C672BC8607200DEF84C /* Observable.swift in Sources */,
-				FA179C4B2BC85DE200DEF84C /* LimitStackView.swift in Sources */,
 				FA179C242BC85A7500DEF84C /* AppFactory.swift in Sources */,
+				FACDF7202BCAFDBD00FC9509 /* LookUpCollectionView.swift in Sources */,
+				FACDF7302BCAFF5800FC9509 /* NetworkFetch.swift in Sources */,
+				FACDF72E2BCAFF1E00FC9509 /* LookUpEndPoint.swift in Sources */,
 				FA179C2C2BC85B2200DEF84C /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

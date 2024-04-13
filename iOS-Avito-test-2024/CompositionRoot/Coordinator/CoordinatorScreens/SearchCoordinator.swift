@@ -6,6 +6,8 @@
 import UIKit
 
 final class SearchCoordinator: Coordinator {
+    
+    var childCoordinators: [Coordinator] = []
     var navigation: UINavigationController
     let searchFactory: SearchFactory
     
@@ -15,7 +17,18 @@ final class SearchCoordinator: Coordinator {
     }
     
     func start() {
-        let controller = searchFactory.makeModule()
+        let controller = searchFactory.makeScreenController(coordinator: self)
         navigation.pushViewController(controller, animated: true)
     }
 }
+
+extension SearchCoordinator: ParentCoordinator { }
+
+extension SearchCoordinator: SearchCoordinatorProtocol {
+    
+    func didSelect(item: CollectionItem) {
+        let detailCoordinator = searchFactory.makeDetailsCoordinator(navigation: navigation, item: item)
+        addChildCoordinatorStart(detailCoordinator)
+    }
+}
+

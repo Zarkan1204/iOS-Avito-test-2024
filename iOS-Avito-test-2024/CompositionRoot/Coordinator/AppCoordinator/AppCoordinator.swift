@@ -7,7 +7,9 @@ import UIKit
 
 final class AppCoordinator: Coordinator {
     var navigation: UINavigationController
+    var childCoordinators: [Coordinator] = []
     private let appFactory: AppFactory?
+    
     
     init(navigation: UINavigationController, appFactory: AppFactory?, window: UIWindow?) {
         self.navigation = navigation
@@ -17,7 +19,7 @@ final class AppCoordinator: Coordinator {
     
     func start() {
         let coordinator = appFactory?.makeSearchCoordinator(navigation: navigation)
-        coordinator?.start()
+        addChildCoordinatorStart(coordinator)
     }
     
     private func configWindow(window: UIWindow?) {
@@ -25,3 +27,6 @@ final class AppCoordinator: Coordinator {
         window?.makeKeyAndVisible()
     }
 }
+
+extension AppCoordinator: ParentCoordinator { }
+

@@ -1,28 +1,26 @@
 //
-//  EndPoint.swift
+//  LookUpEndPoint.swift
 //  iOS-Avito-test-2024
 
 
 import Foundation
 
-struct EndPoint: EndPointProtocol {
-    var name: String
-    var entity: String
-    var limit: Int
+struct LookUpEndPoint: EndPointProtocol {
+    var id: Int
 }
 
-extension EndPoint {
+extension LookUpEndPoint {
     var url: URL {
         var components = URLComponents()
         components.scheme = "https"
         components.host = "itunes.apple.com"
-        components.path = "/search"
+        components.path = "/lookup"
         
         components.queryItems = [
-            URLQueryItem(name: "term", value: name),
-            URLQueryItem(name: "entity", value: entity),
-            URLQueryItem(name: "limit", value: String(limit)),
-            URLQueryItem(name: "country", value: "us")
+            URLQueryItem(name: "id", value: String(id)),
+            URLQueryItem(name: "entity", value: "album"),
+            URLQueryItem(name: "limit", value: "5"),
+            URLQueryItem(name: "sort", value: "recent")
         ]
         
         guard let url = components.url else {
@@ -32,4 +30,3 @@ extension EndPoint {
         return url
     }
 }
-

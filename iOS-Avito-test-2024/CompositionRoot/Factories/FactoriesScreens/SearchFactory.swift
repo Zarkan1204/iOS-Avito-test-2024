@@ -6,17 +6,24 @@
 import UIKit
 
 protocol SearchFactory {
-    func makeModule() -> UIViewController
+    func makeScreenController(coordinator: SearchCoordinatorProtocol) -> UIViewController
+    func makeDetailsCoordinator(navigation: UINavigationController, item: CollectionItem) -> DetailCoordinator
 }
 
 struct SearchFactoryImp: SearchFactory {
     var appDIContainer: AppDIContainer
 
-    func makeModule() -> UIViewController {
+    func makeScreenController(coordinator: SearchCoordinatorProtocol) -> UIViewController {
         let searchViewModel = SearchViewModel(apiService: appDIContainer.apiService,
                                               userDefaultsManager: appDIContainer.userDefaultsManager)
-        let searchController = SearchViewController(viewModel: searchViewModel)
+        let searchController = SearchViewController(coordinator: coordinator, viewModel: searchViewModel)
         searchController.title = "Search Media"
         return searchController
+    }
+   
+    func makeDetailsCoordinator(navigation: UINavigationController, item: CollectionItem) -> DetailCoordinator {
+        let detailFactory = DetailFactoryImp(appDIContainer: appDIContainer, item: item)
+        let coordinator = DetailCoordinator(navigation: navigation, detailFactory: detailFactory)
+        return coordinator
     }
 }

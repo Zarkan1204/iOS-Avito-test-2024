@@ -6,7 +6,14 @@
 import Foundation
 
 struct AppDIContainer {
-    let apiService = APIService()
+    let networkRequest = NetworkRequest()
+    let requestImage = NetworkRequestImage()
     let userDefaultsManager = UserDefaultsManager()
+    let apiService: APIService
+    
+    init() {
+        let networkFetch = NetworkFetch(networkRequest: networkRequest)
+        apiService = APIService(networkFetch: networkFetch, requestImage: requestImage)
+    }
 }
 
