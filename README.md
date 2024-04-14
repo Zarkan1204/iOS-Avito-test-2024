@@ -87,7 +87,8 @@
 
 ### 6. Preview
 
-![Preview](https://drive.google.com/file/d/1uSYszVohJ1VzRf5Svz67ah8Rq3mc8vwl/view?usp=sharing)
+https://github.com/Zarkan1204/iOS-Avito-test-2024/assets/119850620/4e1c94ac-50cc-4796-9cb8-5e41432bf8e4
+
 
 
 
